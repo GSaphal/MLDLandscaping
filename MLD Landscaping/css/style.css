@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+body, html{
+	margin: 0;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	padding: 0;
+	font-family: Roboto, Sans-serif;
+
+}
+
+.top-bar{
+	background: #080808;
+}
+
+.header{
+	background:url("../img/mnbg.png") no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 97vh;
+	color: white;
+}
+
+.header .navbar .navbar-brand{
+	color: white;
+}
+
+.nav-link{
+	color: white;
+}
+
+.menu .nav-link{
+	color: black;
+	fill: black;
+	padding-left: 10px;
+}
+
+.menu .nav-item{
+	font-weight: 500;
+	padding-left: 20px;
+}
+
+.menu .active .nav-link{
+	color: white;
+	padding: 8px 20px;
+	border-radius: 5px;
+	background-color: black;
+}
+
+.logo{
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+h1{
+	color: white;
+}
+
+h6{
+	color: white;
+}
+.main-txt{
+	position: relative;
+	top: 20vh;
+}
+
+.header-footer{
+	background-color: #080808;
+	padding: 20px;
+	width: 100%;
+	margin: 0;
+	position: absolute;
+	bottom: 0%
+}
+
+.services{
+	width:100%;
+	background-color: #e5e5e5;
+}
+
+.serv-images{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+	
+}
+.serv-images img{
+	width:500px;
+}
+.serv-img-item{
+	flex-grow: 0;
+	align-self: center;
+	padding: 10px;
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+.serv-text{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.card{
+	background-color: #f0f0e1;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: 500;
+}
+
+.card-cont{
+	padding: 10px 0px; 
+}
+
+.quick-note{
+	background: linear-gradient(rgba(0, 0, 0, .5),rgba(0,0,0,0.5)), url("../img/Quicknote.png") no-repeat top center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.qui-form{
+	margin: 10px 0px;
+	background-color: white;
+	color: black;
+	padding: 8px 20px;
+	border-radius: 8px;
+	width: 80%;
+	border: none;
+	font-weight: 500;
+}
+.discount{
+	background-color: #0f0f0f;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+.test{
+	background-color: #f9f9f9;
+	padding: 20px 0px; 
+}
+
+.test-card{
+	background-color: #fff;
+	padding: 0px 20px;
+	border-radius: 20px;
+}
+
+.footer{
+	color: white;
+	background-color: #1f1f1f;
+	padding: 20px 0px;
+}
+
+.copyright{
+	padding: 20px 0px;
+	background-color: #333333;
+	color: white;
+}
+
+.darken{
+	filter: brightness(50%);
+}
+
+ul{
+	list-style: none;
+}
+
+.form-btm{
+	border:none;
+	background-color: transparent;
+	font-weight: 500;
+	border-bottom: 1.5px solid grey;
+	padding: 4px 8px;	
+	color: white;
+}
+
+
